@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-#define MAX_NUM 6
+#define MAX_NUM 7
 #define STORE_SIZE 20
 
 void printResult(int result[]){
