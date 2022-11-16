@@ -3,8 +3,8 @@
 
 #include "stdafx.h"
 
-#define MAX_NUM 7
-#define STORE_SIZE 20
+#define MAX_NUM 8
+#define STORE_SIZE 25
 
 void printResult(int result[]){
     //print the result
