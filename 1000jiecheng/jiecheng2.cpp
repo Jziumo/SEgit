@@ -3,8 +3,8 @@
 
 #include "stdafx.h"
 
-#define MAX_NUM 9
-#define STORE_SIZE 30
+#define MAX_NUM 100
+#define STORE_SIZE 100
 
 void printResult(int result[]){
     //print the result
@@ -46,9 +46,6 @@ int main(int argc, char* argv[])
 		{
 			result[i] *= j;
 		}
-		printf("c1: ");
-
-        printResult2(result);
 
         //We will add the 
 		for(int i = 0; i < STORE_SIZE; i++)
@@ -63,13 +60,10 @@ int main(int argc, char* argv[])
 			}
 
 		}
-		printf("c2: ");
-
-        printResult2(result);
 		
 	}
 	
-    // printResult(result);
+    printResult(result);
     
     //pause
 	getchar();
